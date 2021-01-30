@@ -1,3 +1,6 @@
+// [kakao][2019][intern]징검다리 건너기
+// https://programmers.co.kr/learn/courses/30/lessons/64062
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

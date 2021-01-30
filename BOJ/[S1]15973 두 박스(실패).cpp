@@ -1,3 +1,6 @@
+// [S1]15973 두 박스(실패)
+// https://www.acmicpc.net/problem/15973
+
 #pragma warning(disable: 4996)
 #include<cstdio>
 long long a[4], b[4];

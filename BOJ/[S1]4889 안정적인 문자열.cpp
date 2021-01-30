@@ -1,3 +1,6 @@
+// [S1]4889 안정적인 문자열
+// https://www.acmicpc.net/problem/4889
+
 #pragma warning(disable: 4996)
 #include<cstdio>
 int main() {

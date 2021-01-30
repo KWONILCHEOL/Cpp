@@ -1,7 +1,5 @@
-/*
-	날짜 : 20201224
-	링크 : https://www.acmicpc.net/problem/11286
-*/
+// [S1]11286 절대값 힙
+// https://www.acmicpc.net/problem/11286
 #include<iostream>
 
 #define ABS(a) (a > 0 ? a : -a)

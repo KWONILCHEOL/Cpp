@@ -1,6 +1,7 @@
-//[S1]1932 정수 삼각형
-//https://www.acmicpc.net/problem/1932
-//다이나믹 프로그래밍 DP
+// [S1]1932 정수 삼각형
+// https://www.acmicpc.net/problem/1932
+// 다이나믹 프로그래밍 DP
+
 #include<iostream>
 #define MAX(A,B) (A) > (B) ? (A) : (B)
 using namespace std;

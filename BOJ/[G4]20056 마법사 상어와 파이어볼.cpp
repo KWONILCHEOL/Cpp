@@ -1,3 +1,6 @@
+// [G4]20056 마법사 상어와 파이어볼
+// https://www.acmicpc.net/problem/20056
+
 #include<iostream>
 #include<map>
 #include<queue>

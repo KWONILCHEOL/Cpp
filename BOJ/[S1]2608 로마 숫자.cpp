@@ -1,3 +1,6 @@
+// [S1]2608 로마 숫자
+// https://www.acmicpc.net/problem/2608
+
 #pragma warning(disable: 4996)
 #include<cstdio>
 char a[16], b[16], c[16];

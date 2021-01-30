@@ -1,3 +1,6 @@
+// [S1]13335 트럭
+// https://www.acmicpc.net/problem/13335
+
 #pragma warning(disable: 4996)
 #include<cstdio>
 int truck[1000], arrive[100];

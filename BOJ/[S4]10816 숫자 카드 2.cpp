@@ -1,7 +1,6 @@
-/*
-	날짜 : 20201224
-	링크 : https://www.acmicpc.net/problem/10816
-*/
+// [S4]10816 숫자 카드 2
+// https://www.acmicpc.net/problem/10816
+
 #include<iostream>
 #define c 10000000
 using namespace std;

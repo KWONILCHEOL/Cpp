@@ -1,3 +1,6 @@
+// [S1]1790 수 이어 쓰기 2
+// https://www.acmicpc.net/problem/1790
+
 #include<cstdio>
 #include<cmath>
 #pragma warning(disable: 4996)

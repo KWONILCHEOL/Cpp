@@ -1,7 +1,6 @@
-/*
-	날짜 : 20201224
-	링크 : https://www.acmicpc.net/problem/2470
-*/
+// [G5]2470 두 용액
+// https://www.acmicpc.net/problem/2470
+
 #include<iostream>
 #include<algorithm>
 using namespace std;

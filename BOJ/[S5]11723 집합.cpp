@@ -1,6 +1,7 @@
-//[S5]11723 집합
-//https://www.acmicpc.net/problem/11723
-//비트마스킹
+// [S5]11723 집합
+// https://www.acmicpc.net/problem/11723
+// 비트마스킹
+
 #include <cstdio>
 using namespace std;
 #pragma warning(disable: 4996)

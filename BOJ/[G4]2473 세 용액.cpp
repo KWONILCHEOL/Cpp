@@ -1,3 +1,6 @@
+// [G4]2473 세 용액
+// https://www.acmicpc.net/problem/2473
+
 #include<cstdio>
 #include<algorithm>
 #define ABS(A) ((A) > 0 ? (A) : -(A))

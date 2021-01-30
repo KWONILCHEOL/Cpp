@@ -1,3 +1,6 @@
+// [S1]1713 후보 추천하기
+// https://www.acmicpc.net/problem/1713
+
 #pragma warning(disable: 4996)
 #include<cstdio>
 
