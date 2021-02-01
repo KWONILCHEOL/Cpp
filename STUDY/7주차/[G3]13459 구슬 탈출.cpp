@@ -1,4 +1,4 @@
-// [G3]13459 ±∏ΩΩ ≈ª√‚
+// [G3]13459 ±∏ΩΩ ≈ª√‚ 3
 // https://www.acmicpc.net/problem/13459
 #include<iostream>
 #pragma warning(disable: 4996)
