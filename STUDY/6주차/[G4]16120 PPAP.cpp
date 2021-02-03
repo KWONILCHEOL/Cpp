@@ -4,6 +4,7 @@
 #include<cstdio>
 #include<cstring>
 #pragma warning(disable: 4996)
+
 int main() {
 	char s[1000001];
 	scanf("%s", s);
