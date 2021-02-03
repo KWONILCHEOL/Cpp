@@ -1,5 +1,5 @@
-// [G3]13459 ±¸½½ Å»Ãâ
-// https://www.acmicpc.net/problem/13459
+// [G3]13460 ±¸½½ Å»Ãâ2
+// https://www.acmicpc.net/problem/13460
 /*
 	ÆÄ¶û ±¸¸Û¿¡ µé¾î°¡¸é ¾ÈµÊ
 	ÀÌµ¿ : ÁÂ or ¿ì -> »ó, ÇÏ
@@ -23,10 +23,14 @@ int main() {
 		scanf("%s", board[i]);
 
 	NODE node;
-	for (int i = 0; i < n; i++) 
-		for (int j = 0; j < m; j++) 
-			if (board[i][j] == 'B') node.bx = i, node.by = j;
-			else if (board[i][j] == 'R') node.rx = i, node.ry = j;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < m; j++) {
+			if (board[i][j] == 'B')
+				node.bx = i, node.by = j;
+			else if (board[i][j] == 'R')
+				node.rx = i, node.ry = j;
+		}
+	}
 	
 	node.ub = true;
 	q.push(node);
@@ -53,7 +57,7 @@ int main() {
 				
 				if (board[bx][by] != 'O') {
 					if (board[rx][ry] == 'O') {
-						printf("1");
+						printf("%d", i);
 						return 0;
 					}
 					if (rx == bx && ry == by)
@@ -76,7 +80,7 @@ int main() {
 
 				if (board[bx][by] != 'O') {
 					if (board[rx][ry] == 'O') {
-						printf("1");
+						printf("%d", i);
 						return 0;
 					}
 					if (rx == bx && ry == by)
@@ -100,7 +104,7 @@ int main() {
 
 				if (board[bx][by] != 'O') {
 					if (board[rx][ry] == 'O') {
-						printf("1");
+						printf("%d", i);
 						return 0;
 					}
 					if (rx == bx && ry == by)
@@ -123,7 +127,7 @@ int main() {
 
 				if (board[bx][by] != 'O') {
 					if (board[rx][ry] == 'O') {
-						printf("1");
+						printf("%d", i);
 						return 0;
 					}
 					if (rx == bx && ry == by)
@@ -137,5 +141,5 @@ int main() {
 			}
 		}
 	}
-	printf("0");
+	printf("-1");
 }
